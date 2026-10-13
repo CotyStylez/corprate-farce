@@ -19,3 +19,13 @@ npm run dev
 ```
 
 App runs on port 3000 with hot module reloading.
+
+## GitHub Pages Deployment
+
+This project is configured with relative base paths (`base: './'`) in `vite.config.ts` and includes an automated GitHub Actions deployment workflow.
+
+To enable in your GitHub repository:
+1. Navigate to **Settings** -> **Pages** in your repository.
+2. Under **Build and deployment** > **Source**, choose **GitHub Actions**.
+3. Pushing code to `main` will automatically build and publish the site.
+
